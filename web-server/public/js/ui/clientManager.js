@@ -23,8 +23,7 @@ __resources__["/clientManager.js"] = {
         var self = this;
 
         var loading = false;
-        //var httpHost = location.href.replace(location.hash, '');
-        var httpHost = "54.248.83.174";
+        var httpHost = location.href.replace(location.hash, '');
 
         pomelo.on('websocket-error', function ()
         {
